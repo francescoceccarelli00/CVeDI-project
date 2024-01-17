@@ -1,10 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: 'Amalfi Coast';
+    src: local('Amalfi Coast'), url('/font/Amalfi\ Coast.ttf');
+}
 
 :root{
     --dark: #132019;
     --light: #F5E8C8;
     --red: #9B191B;
     --dark-hover: #13201940;
+}
+
+.h1{
+    font-family: Amalfi Coast;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 122.4px */
+    letter-spacing: 1.44px;
+}
+
+.fs-1{
+    font-family: Libre Baskerville;
+    font-size: 22px !important; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%
 }
 
 body{
@@ -20,7 +41,6 @@ body{
     /* mix-blend-mode: darken; */
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     color: var(--dark);
-    font-feature-settings: 'calt' off;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -101,15 +121,12 @@ input[type=text]:focus, input[type=email]:focus{
     margin: -95px auto 0;
 }
 
-.text-center{
+.copyright{
+    padding: 32px !important;
     font-family: sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 200;
     line-height: 150%;
     letter-spacing: 0;
-}
-
-.copyright{
-    padding: 32px !important;
 }

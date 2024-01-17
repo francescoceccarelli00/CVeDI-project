@@ -1,3 +1,17 @@
+#hero{
+    margin: 188px 0 119px;
+}
+
+#hero-img{
+    transform: rotate(-1deg);
+    border: 30px solid #CDC0A5;
+}
+
+.nas-1{
+    top: -89px;
+    right: -41px;
+}
+
 .envelope{
     margin-left: -209px;
 }
