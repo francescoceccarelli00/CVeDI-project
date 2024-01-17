@@ -1,10 +1,14 @@
 #hero{
-    margin: 188px 0 119px;
+    margin: 188px 0 64px;
 }
 
 #hero-img{
     transform: rotate(-1deg);
-    border: 30px solid #CDC0A5;
+    /* border: 30px solid #CDC0A5; */
+}
+
+.border-hero-img {
+    border: min(max(10px, 2vw), 30px) solid #cdc0a5;
 }
 
 .nas-1{
