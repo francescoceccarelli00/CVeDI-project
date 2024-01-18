@@ -11,11 +11,22 @@
     border: min(max(10px, 2vw), 30px) solid #cdc0a5;
 }
 
-.nas-1{
-    top: -89px;
-    right: -41px;
+#nas-1{
+    transform: translate(-50%,-50%) rotate(105deg) !important;
+    /* width: 100%; */
+}
+
+#nas-2{
+    transform: translate(-50%,-50%) rotate(-78deg) !important;
+    /* width: 100%; */
 }
 
 .envelope{
     margin-left: -209px;
+}
+
+@media screen and (max-width: 1200px) {
+    #nas-1, #nas-2{
+        width: 9.5svw;
+    }
 }
