@@ -9,4 +9,15 @@ let prevScrollpos = window.scrollY; // GESTIONE NAVBAR ALLO SCROLL
         prevScrollpos = currentScrollPos;
     };
 
-VanillaTilt.init(document.querySelector(".envelope"),{}); //CHIAMANDO VANILLA TILT SI DA L'EFFETTO ALL'ELEMENTO CON LA CLASSE SELEZIONATA
+VanillaTilt.init(document.querySelector(".ink"),{
+    max: 8,
+	speed: 300
+});
+VanillaTilt.init(document.querySelector(".quill"),{
+    max: 2,
+	speed: 1000
+});
+VanillaTilt.init(document.querySelector(".envelope"),{
+    max: 15,
+    speed: 1500
+}); //CHIAMANDO VANILLA TILT SI DA L'EFFETTO ALL'ELEMENTO CON LA CLASSE SELEZIONATA

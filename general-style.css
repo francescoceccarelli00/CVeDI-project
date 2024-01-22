@@ -20,12 +20,29 @@
     letter-spacing: 1.44px;
 }
 
+.h2{
+    font-family: "Amalfi Coast";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.48px;
+}
+
 .fs-1{
     font-family: Libre Baskerville;
     font-size: 22px !important; 
     font-style: normal;
     font-weight: 400;
     line-height: 160%
+}
+
+.fs-2{
+    font-family: "Libre Baskerville";
+    font-size: calc(1rem + 0.3vw) !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
 
 body{
@@ -138,6 +155,10 @@ input[type=text]:focus, input[type=email]:focus{
         letter-spacing: 0.96px;
     }
 
+    .h2{
+        font-size: calc();
+    }
+
     .fs-1{
         font-size: calc(1rem + 0.5vw) !important;
     }
@@ -149,7 +170,16 @@ input[type=text]:focus, input[type=email]:focus{
         letter-spacing: 0.96px;
     }
 
+    .h2{
+        font-size: 32px !important;
+        letter-spacing: 0.32px;
+    }
+
     .fs-1{
         font-size: 18px !important;
+    }
+
+    .fs-2{
+        font-size: 15px;
     }
 }

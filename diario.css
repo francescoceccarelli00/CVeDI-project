@@ -13,12 +13,10 @@
 
 #nas-1{
     transform: translate(-50%,-50%) rotate(105deg) !important;
-    /* width: 100%; */
 }
 
 #nas-2{
     transform: translate(-50%,-50%) rotate(-78deg) !important;
-    /* width: 100%; */
 }
 
 .envelope{

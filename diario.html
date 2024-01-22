@@ -52,7 +52,10 @@
     <h1 class="h1 text-center">Diario</h1>
     <p class="fs-1 text-center">Scopri chi siamo attraverso la nostra avventura</p>  
   </div>
-  <div class="container">
+
+    <!-- CLASSI NECESSARIE PER RENDERE IL NASTRO ATTACCATO ALL'IMMAGINE -->
+
+  <div class="container mb-5 pb-5">
     <div class="row">
       <div class="col-10 offset-1">
         <div class="position-relative" id="hero-img">
@@ -63,10 +66,74 @@
       </div>
     </div>
   </div>
+
+      <!-- PRIMA ROW    -->
+
+  <div class="container mt-5 pt-5">
+    <div class="row">
+
+          <!-- Testi -->
+
+      <div class="col-12 col-lg-5 d-flex">
+        <div class="container">
+          <h2 class="h2 pb-5">Giorno 1</h2>
+          <p class="fs-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dui turpis, accumsan non tincidunt sit amet, rutrum eu erat. Cras ac tellus mattis, condimentum ligula et, semper risus. Pellentesque auctor vehicula neque vel consectetur. Quisque aliquam scelerisque pretium. Etiam ut gravida lorem.
+            Vivamus a quam lacinia, congue magna nec, vehicula nisl. Cras faucibus consequat orci in consequat.<br> Aenean accumsan nunc a faucibus lobortis. Sed fringilla et diam eu placerat.
+            Nullam ultricies feugiat nisl, at auctor ex lacinia vel. Fusce varius feugiat metus, eget bibendum arcu elementum a.
+          </p>
+        </div>
+      </div>
+
+        <!-- Immagini -->
+
+      <div class="col-10 offset-1 col-lg-7 offset-md-0 position-relative py-5">
+        <img src="/img/Diario/bosco-fate.jpg" class="mx-auto d-block w-100 opacity-75" alt="il disegno di un bosco con delle fatine con sopra poggiati un calamaio ed una penna">
+        <img src="/img/Diario/calamaio.png" alt="" id="ink" class="img-fluid position-absolute top-0 start-50 translate-middle ink"> 
+        <!-- translate-middle perfeziona il centramento dell'immagine ma crea un conflitto con lo script per il tilt, da decidere a cosa dare la precedenza -->
+        <img src="/img/Diario/penna.png" alt="" id="quill" class="img-fluid position-absolute top-0 start-50 quill">
+      </div>
+    </div>
+  </div>
+
+  <!-- Seconda ROW    -->
+
+  <div class="container mt-5 pt-5">
+    <div class="row">
+              
+        <!-- Testi -->
+
+      <div class="col-12 col-lg-5 d-flex order-first order-lg-last">
+        <div class="container">
+          <h2 class="h2 pb-5">Giorno 1</h2>
+          <p class="fs-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dui turpis, accumsan non tincidunt sit amet, rutrum eu erat. Cras ac tellus mattis, condimentum ligula et, semper risus. Pellentesque auctor vehicula neque vel consectetur. Quisque aliquam scelerisque pretium. Etiam ut gravida lorem.
+            Vivamus a quam lacinia, congue magna nec, vehicula nisl. Cras faucibus consequat orci in consequat.
+          </p>
+          <p class="fs-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dui turpis, accumsan non tincidunt sit amet, rutrum eu erat. Cras ac tellus mattis, condimentum ligula et, semper risus. Pellentesque auctor vehicula neque vel consectetur. Quisque aliquam scelerisque pretium. Etiam ut gravida lorem.
+            Vivamus a quam lacinia, congue magna nec, vehicula nisl. Cras faucibus consequat orci in consequat. Aenean accumsan nunc a faucibus lobortis. Sed fringilla et diam eu placerat.
+            Nullam ultricies feugiat nisl, at auctor ex lacinia vel. Fusce varius feugiat metus, eget bibendum arcu elementum a.
+          </p>
+        </div>
+      </div>
+      
+        <!-- Immagini -->
+
+        <div class="col-10 offset-1 col-lg-7 offset-md-0 position-relative py-5 order-last order-lg-first">
+          <img src="/img/Diario/costa-sirene-2.png" class="d-block opacity-50 h-100" style="max-height: 768px;" alt="il disegno di una costa con due sirene sopra degli scogli mentre guardano l'orizzonte">
+          <img src="/img/Diario/costa-sirene-zoom.png" alt="" id="ink" class="position-absolute top-50 end-0 translate-middle-y w-50"> 
+          <!-- translate-middle perfeziona il centramento dell'immagine ma crea un conflitto con lo script per il tilt, da decidere a cosa dare la precedenza -->
+          <!-- <img src="/img/Diario/penna.png" alt="" id="quill" class="img-fluid position-absolute top-0 start-50 quill"> -->
+        </div>
+  
+    </div>
+  </div>
+
       
       <!-- -!- BUSTA -->
 
-      <!-- <div ><img class="envelope" src="/img/Diario/Busta.png"></div> -->
+      <div ><img class="envelope" src="/img/Diario/Busta.png"></div>
 
 
 
