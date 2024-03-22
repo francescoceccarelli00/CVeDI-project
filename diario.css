@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 #hero{
     margin: 188px 0 64px;
 }
@@ -19,8 +23,23 @@
     transform: translate(-50%,-50%) rotate(-78deg) !important;
 }
 
+.ink{
+    max-width: 320px ;
+    width: calc(20svw + 3vw);
+}
+
+.quill{
+    max-width: 800px;
+    width: 65svw;
+}
+
 .envelope{
-    margin-left: -209px;
+    /* margin-top: -40svh;
+    margin-left: -25svw; */
+}
+
+.glass{
+    transform:rotate(5deg);
 }
 
 @media screen and (max-width: 1200px) {
