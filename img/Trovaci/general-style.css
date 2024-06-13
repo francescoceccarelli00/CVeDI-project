@@ -39,7 +39,7 @@
 
 .fs-2{
     font-family: "Libre Baskerville";
-    font-size: calc(1rem + 0.025vw) !important;
+    font-size: calc(1rem + 0.3vw) !important;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;

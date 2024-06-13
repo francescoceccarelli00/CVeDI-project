@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diario</title>
+  <title>Trovaci</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="general-style.css">
   <link rel="stylesheet" href="trovaci.css">
+
 </head>
 <body>
 
@@ -14,7 +15,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-personalized fixed-top" id="navbar">
     <div class="container">
-      <a class="navbar-brand" href="/index.html"><img class="logo-header" src="/img/logo-semplice.svg"></a>
+      <a class="navbar-brand" href="/index.html"><img class="logo-header" src="/img/logo-semplice.svg" alt="BigFoot"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -24,7 +25,7 @@
             <a class="nav-link" href="/index.html">Home</a>
           </li>
           <li class="nav-item mx-auto">
-            <a class="nav-link" href="/diario.html">Diario</a>
+            <a class="nav-link active" aria-current="page" href="/diario.html">Diario</a>
           </li>
           <li class="nav-item mx-auto">
             <a class="nav-link" href="/viaggi.html">Viaggi</a>
@@ -36,7 +37,7 @@
             <a class="nav-link" href="/bestiario.html">Bestiario</a>
           </li>
           <li class="nav-item mx-auto">
-            <a class="nav-link active" aria-current="page" href="/trovaci.html">Trovaci</a>
+            <a class="nav-link" href="/trovaci.html">Trovaci</a>
           </li>
         </ul>
       </div>
@@ -45,32 +46,264 @@
 
       <!-- CONTENT -->
 
+<div class="container Hero">
+
+  <div class="row mb-5">
+    <div class="col-10 offset-1 text-center">
+      <h1>L’isola è’ misteriosa come i suoi abitanti...</h1>
+      <h3>Lascia che ti aiutiamo a trovarla...</h3>
+    </div>
+  </div>
+
+  <div class="row py-5">
+    <div class="col-10 offset-1">
+      <div class="position-relative">
+        <img class="heroimage img-fluid z-1" src="img/Trovaci/heroimage.png" alt="landscape"/>
+        <img src="img/Trovaci/nastro.png" class="img-fluid top-0 start-100 position-absolute nas-1" alt="nastro1t">
+        <img src="img/Trovaci/nastro.png"  class="img-fluid top-100 start-0 position-absolute nas-1" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="row py-5 align-items-center">
+    <div class="col-10 col-lg-6 offset-1 pb-5 pb-md-0">
+      <div class="position-relative">
+      <img class="img-fluid polaroid1"  src="img/Trovaci/Group%2097.png" alt="polaroid"/>
+        <img src="img/Trovaci/nastro2.png" alt="nastro2" class="img-fluid position-absolute top-0 start-50 translate-middle nas-2">
+      </div>
+    </div>
+    <div class="col-10 mr-3 col-lg-4 trovarci">
+      <h2 class="h2">Come trovarci</h2>
+      <p class="pb-3">Su carte ignote, un mistero si nasconde, un'isola nascosta, segreta e tra le onde. Un viaggio insolito, una strana prenotazione, la mappa non rivela la tua destinazione. Chiudi gli occhi, e fai un bel respiro e su te stesso fai un giro, al tuo risveglio sarai arrivato e il viaggio sarà appena cominciato.<br><br>
+      Sulla tua strada tante creature incontrerai, e un po' di coraggio portar dovrai.<br><b> Parti ora all'avventura,  scopri i nostri viaggi senza paura!</b></p>
+      <button type="submit" class="btn btn-red">Scopri i nostri viaggi</button>
+    </div>
+  </div>
+
+  <!--FAQ-->
+
+  <div class="row FAQ">
+
+    <div class="col-10 offset-1 col-md-6 d-sm-block d-md-none">
+      <h2>F.A.Q</h2>
+      <p class="FAQuestion">
+        <a data-bs-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+          È necessario vaccinarsi per qualche malattia prima di visitare l’isola?
+          <img src="img/Trovaci/Polygon%201.png" alt="polygon" class="FAQpointer">
+        </a>
+      </p>
+      <div class="collapse in show" id="collapse">
+        <div class="">
+          Non è assolutamente necessario! In ogni caso, ogni malanno proveniente dall’isola non concerne l’attuale scienza medica.
+        </div>
+      </div>
+      <p class="FAQuestion">
+      <a data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Quanto è pericolosa l’isola?
+        <img src="img/Trovaci/Polygon%201.png" alt="polygon" class="FAQpointer">
+      </a>
+      </p>
+      <div class="collapse in show" id="collapse1">
+        <div class="">
+          Dall’apertura delle strutture la percentuale di mortalità si è abbassata moltissimo e continua a farlo. Consigliamo comunque di prevenirsi attraverso una polizza sulla vita prima del viaggio.
+        </div>
+      </div>
+      <p class="FAQuestion">
+      <a data-bs-toggle="collapse in show" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapseExample">   <!-- risolvere link -->
+        L’isola e la sua storia assomigliano molto ad una truffa. Posso fidarmi?
+        <img src="img/Trovaci/Polygon%201.png" alt="polygon" class="FAQpointer">
+      </a>
+      </p>
+      <div class="collapse in show" id="collapse2">
+        <div class="">
+          Dalla sua creazione, la nostra  si è sempre impegnata ad offrire il meglio per i propri clienti. Certe illazioni provengono da persone in malafede o poco informate sul nostro operato.
+        </div>
+      </div>
+      <p class="FAQuestion">
+      <a data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Sono stato attaccato/ferito da uno dei vostri mostri e voglio essere risarcito
+        <img src="img/Trovaci/Polygon%201.png" alt="polygon" class="FAQpointer">
+      </a>
+      </p>
+      <div class="collapse in show" id="collapse3">
+        <div class="">
+          Il nostro staff provvederà a qualsiasi cura medica necessaria, ma come scritto nell’informativa che facciamo firmare all’arrivo, noi non siamo proprietari dei criptidi presenti sull’isola, perciò non siamo legalmente tenuti a risarcire eventuali danni occorsi durante il soggiorno.
+        </div>
+      </div>
+      <p class="FAQuestion">
+      <a data-bs-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapseExample">
+        L’isola offre vita notturna?
+        <img src="img/Trovaci/Polygon%201.png" alt="polygon" class="FAQpointer">
+      </a>
+      </p>
+      <div class="collapse in show" id="collapse4">
+        <div class="">
+          Certamente! Nell’accampamento principale, ogni sera, è possibile divertirsi con l’animazione preparata dal nostro staff. Sconsigliamo, però, di allontanarsi dal campo, specialmente se si vogliono evitare spiacevoli sorprese.
+        </div>
+      </div>
+      <p class="FAQuestion">
+      <a data-bs-toggle="collapse" href="#collapse5" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Ho visto che l’isola ha un vulcano. Non c’è rischio di un eruzione?
+        <img src="img/Trovaci/Polygon%201.png" alt="polygon" class="FAQpointer">
+      </a>
+      </p>
+      <div class="collapse in show" id="collapse5">
+        <div class="">
+          Il vulcano è perennemente sotto controllo dal nostro team di vulcanologi, quindi non c’è da preoccuparsi . In ogni caso l’ultima eruzione è datata a due millenni fa e ha fatto sprofondare l’isola.
+        </div>
+      </div>
+    </div>
+
+    <div class="col-10 offset-1 col-md-6 d-none d-md-block">
+      <h2>F.A.Q</h2>
+
+      <p class="FAQuestion">
+          È necessario vaccinarsi per qualche malattia prima di visitare l’isola?
+      </p>
+
+          <p>Non è assolutamente necessario! In ogni caso, ogni malanno proveniente dall’isola non concerne l’attuale scienza medica.</p>
+
+      <p class="FAQuestion">
+        Quanto è pericolosa l’isola?
+      </p>
+      <p>
+          Dall’apertura delle strutture la percentuale di mortalità si è abbassata moltissimo e continua a farlo. Consigliamo comunque di prevenirsi attraverso una polizza sulla vita prima del viaggio.
+     </p>
+
+      <p class="FAQuestion">
+    L’isola e la sua storia assomigliano molto ad una truffa. Posso fidarmi?
+    </p>
+    <p>
+        Dalla sua creazione, la nostra  si è sempre impegnata ad offrire il meglio per i propri clienti. Certe illazioni provengono da persone in malafede o poco informate sul nostro operato.
+    </p>
+
+    <p class="FAQuestion">
+
+        Sono stato attaccato/ferito da uno dei vostri mostri e voglio essere risarcito
+
+    </p>
+    <p>
+        Il nostro staff provvederà a qualsiasi cura medica necessaria, ma come scritto nell’informativa che facciamo firmare all’arrivo, noi non siamo proprietari dei criptidi presenti sull’isola, perciò non siamo legalmente tenuti a risarcire eventuali danni occorsi durante il soggiorno.
+    </p>
+
+    <p class="FAQuestion">
+        L’isola offre vita notturna?
+    </p>
+    <p>
+        Certamente! Nell’accampamento principale, ogni sera, è possibile divertirsi con l’animazione preparata dal nostro staff. Sconsigliamo, però, di allontanarsi dal campo, specialmente se si vogliono evitare spiacevoli sorprese.
+    </p>
+
+    <p class="FAQuestion">
+        Ho visto che l’isola ha un vulcano. Non c’è rischio di un eruzione?
+    </p>
+    <p>
+
+        Il vulcano è perennemente sotto controllo dal nostro team di vulcanologi, quindi non c’è da preoccuparsi . In ogni caso l’ultima eruzione è datata a due millenni fa e ha fatto sprofondare l’isola.
+</p>
+  </div>
+    <div class="col-md-5">
+      <img class="polaroid2" src="img/Trovaci/Group%2097.png" alt="polaroid"/>
+    </div>
+  </div>
+
+  <!--NEWSLETTER-->
+
+  <div class="row pb-5">
+    <div class="col-12 col-md-10 offset-md-1 offset-sm-2 bg_form">
+      <div class="frm">
+        <form>
+          <div class="text-start" id="txtform">
+            <h3>Iscriviti alla newsletter!</h3>
+            <p>Rimani aggiornato sulle ultime novità criptozoologiche, o scopri nuove idee di viaggio e offerte esclusive.</p>
+          </div>
+          <div>
+            <div class="labels mt-3">
+              <input type="text" placeholder="Nome e Cognome" name="anagrafica" required>
+            </div>
+            <div class="labels mt-1 mb-3">
+                <input type="text" placeholder="Indirizzo Email" name="email" required>
+
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Accetto il trattamento dei dati
+              </label>
+            </div>
+          <button type="submit" class="btn btn-red">ISCRIVITI</button>
+        </div>
+        </form>
+      </div>
+      <img class="bottle position-absolute start-100 top-50 img-fluid" src="img/Trovaci/bottle.png" alt="bottiglia">
+    </div>
+  </div>
+
+  <!--CAROSELLO-->
+
+  <div class="row pt-3">
+    <div class="col-10 offset-1 text-center">
+      <h2>Parlano di noi</h2>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">   <!-- definire grandezze -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 img-fluid" src="img/Trovaci/card.png" alt="First slide">
+            <div class="d-block frm">
+              <img src="img/Trovaci/stelleRecc.png" alt="stelle" class="py-3">
+              <h5 class="py-3">Deyna e Chris Maris</h5>
+              <p>Di recente ho partecipato a un safari su un'isola piena di criptidi ed è stata un'esperienza straordinaria.<br><br>
+                La guida era competente e amichevole e il paesaggio era stupendo. Abbiamo visto una varietà di criptidi, e abbiamo imparato a conoscere i loro habitat e comportamenti. Il tour è stato anche educativo, in quanto abbiamo appreso la storia dell'isola e dei criptidi che la abitano</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid" src="img/Trovaci/card.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid" src="img/Trovaci/card.png" alt="Third slide">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+ </div>
 
 
-      <!-- FOOTER -->
+       <!-- FOOTER -->
   
   <div class="container-fluid" id="footer">
     <div class="container">
-      <div class="row py-5 pt-md-1">
-        <div class="d-none d-sm-none d-md-block col-md-4 offset-md-1 d-flex flex-wrap">
-          <div class="d-flex flex-row poof">
-            <p class="my-5 px-md-5 mx-sm-0 mx-5 px-2"><a href="/index.html">Home</a></p>
-            <p class="my-5 px-md-5 mx-sm-0 mx-5 px-0"><a href="/diary.html">Diario</a></p>
+      <div class="row py-5">
+        <div class="col-sm-4 offset-sm-1 col-12 d-flex flex-wrap">
+          <div class="d-flex flex-row ">
+            <p class="my-5 px-md-5 mx-sm-0 mx-5 px-5"><a href="/index.html">Home</a></p>
+            <p class="my-5 px-md-5 mx-sm-0 mx-5 px-3"><a href="/diario.html">Diario</a></p>
           </div>
-          <div class="d-flex flex-row poof">
-            <p class="my-2 px-md-5 mx-sm-0 mx-5 px-2"><a href="/viaggi.html">Viaggi</a></p>
-            <p class="my-2 px-md-5 mx-sm-0 mx-5 px-0"><a href="/isola.html">Isola</a></p>
+          <div class="d-flex flex-row ">
+            <p class="my-2 px-md-5 mx-sm-0 mx-5 px-5"><a href="/viaggi.html">Viaggi</a></p>
+            <p class="my-2 px-md-5 mx-sm-0 mx-5 px-3"><a href="/isola.html">Isola</a></p>
           </div>
-          <div class="d-flex flex-row poof">
-            <p class="my-5 px-md-5 mx-sm-0 mx-5 px-2"><a href="/bestiario.html">Bestiario</a></p>
-            <p class="my-5 px-sm-3 mx-sm-0 mx-3 px-0"><a href="/trovaci.html">Trovaci</a></p>
+          <div class="d-flex flex-row">
+            <p class="my-5 px-md-5 mx-sm-0 mx-5 px-5"><a href="/bestiario.html">Bestiario</a></p>
+            <p class="my-5 px-sm-3 mx-sm-0 mx-3 px-3"><a href="/trovaci.html">Trovaci</a></p>
           </div>
           
         </div>
   
         <!-- FORM -->
   
-        <div class="col-md-4 offset-md-2 col-10 offset-1 my-5 text-center text-md-start">
+        <div class="col-sm-4 offset-sm-2 col-10 offset-1 my-5 ">
           <p>Vuoi saperne di più</p>
           <form>
             <div class="mb-3">
@@ -84,7 +317,7 @@
         </div>
       </div>
   
-        <!-- LINEA E ULTIMI ELEMENTI -->
+        <!-- LINEA E ULTIMI ELEMENTI DEL FOOTER -->
   
       <div class="row">
         <div class="col-10 offset-1 line py-bottom-5"></div>
@@ -92,11 +325,11 @@
   
       <div class="row py-3">
         <div class="col">
-          <a class="mt-n5 mx-auto" href="/index.html"><img class="logo-footer d-flex" src="/img/logo-completo.svg"></a>
+          <a class="mt-n5 mx-auto" href="/index.html"><img class="logo-footer d-flex" src="/img/logo-completo.svg" alt="BigFoot"></a>
         </div>
       </div>
   
-      <div class="copyright text-center">Copyright CryptoZoology Unlimited</div>
+      <div class="copyright text-center1">Copyright CryptoZoology Unlimited</div>
     </div>
   </div>
       

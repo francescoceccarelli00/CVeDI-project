@@ -1,0 +1,163 @@
+body{
+    overflow-x: hidden;
+}
+.bg_form{
+    background-image: url("img/Trovaci/carta2.png");
+    min-height: 800px;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+    filter: drop-shadow(-6px 17px 10px hsl(0 0% 0% / 62%));
+}
+
+.frm{
+    margin: auto;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.labels {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.bottle{
+ transform: translate(-90%, -45%);
+}
+
+
+.trovarci{
+    flex-shrink: 0;
+    text-align: left;
+}
+
+.polaroid1{
+    filter: drop-shadow(5px 10px 16px #000000);
+
+}
+
+.polaroid2{
+    max-width: 100%;
+    height: auto;
+    /* min-width: 800px; */
+    transform: rotate(-10deg);
+    /*transform: translateX(50%);*/
+    filter: drop-shadow(5px 10px 16px #000000);
+    float:right !important;
+    margin-right:-50% !important;
+}
+
+.FAQ{
+    padding:10rem 0 10rem 0;
+}
+
+.Hero{
+    margin-top: 10em;
+}
+
+.FAQuestion{
+
+}
+
+.FAQuestion>a{
+    text-decoration: none;
+    color: #132019;
+    font-weight: bold;
+}
+
+.FAQpointer{
+    
+}
+
+
+.carouselIndicator-next{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    right: 0;
+}
+
+.carouselIcon{
+    background-image: url("img/Trovaci/freccia.svg");
+}
+
+#txtform{
+
+}
+
+@media screen and (max-width: 768px){
+    .heroimage, .polaroid2, .bottle, .nas-1{
+        display: none;/*sare classe bootstrap*/
+    }
+    .trovarci>h2, .FAQ>h2{
+        text-align: center;
+    }
+    .bg_form{
+        background-image: url("img/Trovaci/cartaform1.png");/*offset-md-2 display-none 2 parti di html immagine e faq*/
+    }
+    #txtform{
+        text-align: center;
+
+    }
+}
+/*@media screen and (min-width: 900px){
+    .FAQpointer{
+        display: none;
+    }
+}*/
+.nas-1{
+    transform: translate(-50%, -50%);
+}
+
+.nas-2{
+
+}
+
+@media screen and (max-width:1200px){
+    .nas-1{
+        width: 9.5svw;
+    }
+    .nas-2{
+        width: 12svw;
+    }
+}
+
+.carousel-indicators li {
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+}
+
+.carousel-indicators .active {
+    background-color: #000000;
+}
+
+input[type=text]{
+    width: 75%;
+    padding: 12px 15px;
+    border: none;
+}
+::placeholder {
+    color: #132019;
+}
+
+input[type=checkbox]{
+    background-color: rgba(76, 175, 80, 0);
+    border: solid 2px #132019;
+}
+
+
+
+
+
