@@ -1,0 +1,544 @@
+
+/********************Classi che possono servire a tutti***********************/
+
+
+.color-light-green{
+	color: var(--light-green);
+}
+
+.color-light{
+	color: var(--light);
+}
+.shadow-image{
+	filter: drop-shadow(9px 7px 10px rgb(0,0,0,40%));
+}
+
+.rotate-5deg{
+	transform: rotate(-5deg);
+}
+.rotate-3deg{
+	transform: rotate(3deg);
+}
+
+.transform-scotch-travels{
+	    transform: translate(-50%,-50%) rotate(60deg) !important;
+}
+
+.transform-scotch-travels-2{
+	    transform: translate(-70%,-50%) rotate(60deg) !important;
+}
+
+
+/**************codice pagina**************************/
+
+#section-hero-traverls{
+	margin: 13rem 0 7rem 0; 
+}
+
+.border-hero-img {
+	border: min(max(10px, 2vw), 30px) solid #cdc0a5;}
+
+#hero-image-travels{
+	transform: rotate(-1.5deg);
+}
+
+#nas1-hero-travels{
+	transform: translate(-40%, -30%) rotate(10deg) !important;
+}
+
+#nas2-hero-travels{
+	transform: translate(60%, 30%) rotate(10deg) !important;
+}
+
+#image-key-hero{
+	transform: translate(-40%, -40%) rotate(1.5deg) !important;
+}
+
+.polaroid-travels-rotate-4deg{
+	transform: rotate(-4deg);
+
+}
+
+.polaroid-travels-rotate-2deg{
+	transform: rotate(2deg);
+	}
+
+#section1-travels button{
+	border: none;
+	background-color: transparent; 
+	}
+
+.polaroid-hover:hover {
+  transform: rotate(4deg);
+  transition: transform 0.9s;
+}
+
+.polaroid-active:active {
+  transform: rotate(2deg);
+  transition: transform 0.9s, box-shadow 0.3s ease-out;
+  box-shadow: 0.6rem 0.6rem 0.8rem -0.25rem rgba(0, 0, 0, 0.32);
+}
+
+.scotch-polaroid-cryptide{
+	z-index: 10;
+}
+
+.carousel-control-next-icon{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23132019'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+.carousel-control-prev-icon{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23132019'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e") !important;
+}
+
+.btn-faq-section{
+	background-color: transparent;
+	color: var(--light-green);
+	font-weight: bold;
+	border:none;
+	padding-left: 0px !important;
+	text-align:left;
+}
+
+/**************************Parte descrizone viaggi dagli md in sui************************/
+
+.rotation-image-description-travel{
+	transform: rotate(3deg);
+}
+
+.transform-scotch1-image-description-travel{
+	transform: translate(-25%, -55%) rotate(10deg) !important;
+}
+
+.transform-scotch2-image-description-travel{
+	transform: translate(25%, 55%) rotate(10deg) !important;
+}
+
+
+#section4-info-travel1 a{
+	color: var(--light-green);
+	text-decoration: none !important;
+}
+
+#section4-info-travel1 a:hover{
+	color: var(--light-green);
+	text-shadow: 0.6rem 0.5rem 0.25rem rgba(19, 32, 25, 0.7);
+	transition: 0.8s;
+}
+
+
+.itinerary-width-card{
+	width:80vw;
+}
+
+.mt-cryptid-polaroid-travels{
+	margin-top:8vw;
+}
+
+.polaroid1-itinerary{
+	transform: rotate(-6deg);
+	margin-top:15vw;
+}
+
+.polaroid2-itinerary{
+	transform: rotate(3deg);
+	margin-top:10vw;
+}
+
+
+.background-image-section4-info-travel{
+	background-size: cover;
+	background-position: center;
+	height: 160vw;
+}
+
+
+#section4-info-travel1{
+	background-image:url("img/Viaggi/image-background-itinerary-travel1.png"); /**************************in html a questa parte ho dato la classe shadow-image, il problema è che me lo prende anche sul titolo. Stessa cosa per le due section sotto, ho provato a toglierlo con gli id e richiamando h2 ma mi toglie anche l'obra dall'immagine************************/
+}
+
+#section4-info-travel2{
+	background-image: url("img/Viaggi/image-background-itinerary-travel2.png")
+}
+
+#section4-info-travel3{
+	background-image: url("img/Viaggi/image-background-itinerary-travel3.png")
+}
+
+
+.itinerary-card-transform-right{
+	transform:rotate(5deg); 
+}
+
+.itinerary-text-card-rotate-right{
+	transform: rotate(5deg);
+	min-width:40vw;
+	margin-top: 12vw;
+}
+
+.itinerary-card-transform-left{
+	transform: rotate(-3deg); 
+}
+
+.itinerary-text-card-rotate-left{
+	transform: rotate(-3deg);
+	min-width:40vw;
+	margin-top: 12vw;
+}
+
+.margin-top-itinerary-days{
+	margin-top:17vw;
+}
+
+.margin-day1-3{
+	margin: 0 0 0 8vw;
+}
+
+/**************************SCROLL-ANIMATION************************/
+ @keyframes appear {
+        from {
+          opacity: 0;
+          clip-path: inset(0 0 0 0);
+		
+		
+        }
+        to {
+          opacity: 1;
+          clip-path: inset(0 0 0 0);
+        }
+      }
+
+      .block {
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+      }
+
+/**************************Parte descrizone viaggi xs-sm************************/
+
+.accordion{
+	--bs-border-width: var(--border-accordion-width);
+	--bs-accordion-btn-active-icon: var(--icon-active-light-accordion); 
+	--bs-accordion-btn-icon: var(--icon-no-active-light-accordion);
+	--bs-accordion-bg: var(--border-body-accordion-color);
+}
+
+
+.accordion-button{
+	color: var(--light) !important;
+	background-color: var(--light-green);
+	border-radius: 0px !important;
+
+	
+}
+
+
+.accordion-button:focus{
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.accordion-button:not(.collapse){
+	box-shadow: none !important;
+	background-color: var(--light-green) !important;
+}
+
+.accordion-body{
+	background-color: var(--light);
+	color: var(--dark);
+	padding:1.25rem;
+	border-left: 0.1rem solid rgba(100, 101, 52, 100);
+	border-right: 0.1rem solid rgba(100, 101, 52, 100);
+}
+
+.accordion-item{
+	border-bottom: 0.1rem solid rgba(254, 232, 200, 0);
+}
+
+.accordion-border-bottom{
+	border-bottom: 0.1rem solid rgba(100, 101, 52, 100);
+}
+
+#section3-sm-travels .accordion-button{
+	color: var(--light-green)!important; 
+	background-color: rgba(0,0,0,0)!important;
+}
+
+#section3-sm-travels .accordion-body{
+	background-color: rgba(0,0,0,0)!important;
+	color: var(--dark);
+	border-left: 0rem !important;
+	border-right: 0rem !important;
+	padding: 0rem 1.25rem 1.25rem 1.25rem !important;
+	
+}
+
+#section3-sm-travels .accordion-body {
+	border-bottom: 0rem !important;
+}
+
+.faq-icon-light-green{
+	--bs-accordion-btn-active-icon: var(--icon-active-light-green-accordion); 
+	--bs-accordion-btn-icon: var(--icon-no-active-light-green-accordion);
+}
+
+.width-polaroid-itierary-travel{
+	width: 15rem;
+}
+
+
+/**************************form-section4-travels************************/
+
+#image-compass-form{
+	width:45vw;
+	transform: translate(-50%, -50%) rotate(7deg);
+	margin-left: 7vw;
+}
+
+#section4-travels-form{
+	background-image: url("img/Viaggi/image-form-background.png"); /**************************questo pezzo di carta non ha l'ombra perchè, se la metto qui me la prende a tutto quello che c'è, non saprei come fare************************/
+	background-size: cover; 
+	min-height: 65vw; 
+	background-position: center;
+	
+	
+
+}
+
+#section4-travels-form .form-control{
+	
+	background-color: var(--light-green);
+	border: none;
+	color: var(--light);
+}
+
+#section4-travels-form ::placeholder{
+		color: var(--light);
+}
+
+#section4-travel-form::-webkit-input-placeholder { /* WebKit browsers (Safari, Google Chrome, Opera 15+) */
+    color: var(--light);
+}
+#section4-travel-form:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: var(--light);
+   opacity: 1;
+}
+#section4-travel-form::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: var(--light);
+   opacity: 1;
+}
+#section4-travel-form:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: var(--light);
+}
+
+#section4-travels-form .form-control:active{
+	box-shadow: none;
+	background-color: #F5E8C8; 
+    color: var(--light-green);
+    border: #8B8C5A 0.2rem solid; 
+
+}
+
+
+#section4-travels-form .form-control:focus{
+	box-shadow: none;
+	background-color: #F5E8C8; 
+    color: var(--light-green);
+    border: #8B8C5A 0.2rem solid;
+}
+
+#section4-travels-form .form-check-label{
+	color: var(--dark);
+}
+#section4-travels-form .form-check-input{
+	background-color: var(--light);
+	border-color: var(--light-green);
+	box-shadow: none;
+	}
+
+
+#section4-travels-form .form-check-input:checked{
+	background-color: var(--light-green);
+	border-color: var(--light-green);
+	box-shadow: none;
+}
+
+
+
+
+
+@media (min-width: 1400px){
+	.margin-top-itinerary-days1-3-xxl{
+	margin-top:20vw !important;
+}
+	.margin-top-itinerary-days4-10-xxl{
+		margin-top:8vw !important;
+	}
+	
+	.width-card-itinerary-xxl{
+		width: 50vw !important;
+}		
+	#image-compass-form{
+	width:35vw !important;
+	transform: translate(-50%, -50%) rotate(7deg);
+	}
+		
+	.itinerary-text-card-rotate-right, .itinerary-text-card-rotate-left{
+	margin-top: 9vw !important;
+	min-width:30vw !important;
+		}
+	
+	.transform-scotch-travels-xl{
+	    transform: translate(-90%,-50%) rotate(60deg) !important;
+}
+
+}
+
+@media (max-width: 1199.98px) {
+	.scotch-scaling{   /**************************impo-per-tutti************************/
+		width: 10.5vw;
+	}
+	#image-key-hero{
+		width: 25vw;
+	}
+
+	.itinerary-card-width-underxl{
+		width:50vw;
+	}
+
+	#section4-info-travel1{
+		height: 160vw !important;
+	}
+}
+
+
+	/**************************per gli md ************************/
+@media (min-width: 768px) and (max-width: 991.98px){
+	.position-md-static{
+		position:static!important; 
+		top:0!important;
+		transform: translate(0,0)!important;
+	}
+	
+	#paper-background-form{
+		height:85vw !important;
+	}
+
+	.section4-info-travel-h3{ 
+		font-size:28px !important;  /**************************l'ho messo per rimpicciolire gli elementi su md************************/
+	}
+	
+	#section4-info-travel1, #section4-info-travel2, #section4-info-travel3 p{
+		font-size:14px !important;  /**************************l'ho messo per rimpicciolire gli elementi su md************************/
+	}
+	
+	#section4-travels-form{
+		height:90vw !important;
+	}
+	
+	
+
+}
+
+
+	/**************************section4-modifiche dai 578 in giù************************/
+@media (max-width: 575.98px) {
+	.image-xs-scaling{ /**************************impo-per-tutti-siridimesionano sugli xs************************/
+	width:85vw;
+}	
+	
+}
+
+
+	/**************************section4-modifiche dai 768 in giù************************/
+@media (max-width: 767.98px){
+	
+	.scotch-sm-scaling{
+        width: 23vw !important; /**************************impo-per-tutti-siridimesionano sugli xs************************/
+    }
+	
+	.position-sm-static{
+		position:static!important; 
+		top:0!important;
+		transform: translate(0,0)!important;
+	}
+	
+
+	
+	#polaroid-travel1, #polaroid-travel2, #polaroid-travel3{
+		margin-top: 5rem;
+			}
+
+	#section1-travels button:hover{
+	transform: rotate(-2deg);
+	transition: 0.9s;
+}
+
+.card-discover-travel-active:active{
+	transform: rotate(-2deg);
+	transition: 0.9s;
+	box-shadow: 0.6rem 0.6rem 0.8rem -0.25rem rgb(0,0,0,32%); 
+}
+
+	
+.sm-paper-background-choose-us{
+	
+	background-image: url("img/Viaggi/background-choose-us.png");
+	height: 70vh; 
+	background-position: center center; 
+	background-size: cover;
+		
+	}
+
+	#section2-travels{
+		padding-left: 0px !important; 
+		padding-right: 0px !important; 
+		overflow: hidden; 
+	}	
+	
+
+	#section4-travels-form{
+	background-image: none !important;
+}
+	
+	#image-compass-form{
+		width:80vw !important;
+		margin-left: 0 !important;
+		}
+
+	
+	.position-polaroid-travel-section1-sm{
+		position:absolute !important; 
+		bottom: 0!important; 
+		left: 50% !important;
+		transform: translateX(-50%) !important;
+	}
+	
+
+/**************************scroll-to-top************************/
+#scroll-to-top-button{
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color:#9B191B ;
+  color: #F5E8C8;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+#scroll-to-top-button:hover {
+  background-color: #515215;
+}
+	
+}
+
+
+
+
+
+
+

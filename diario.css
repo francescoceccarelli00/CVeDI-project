@@ -1,4 +1,4 @@
-body{
+html{
     overflow-x: hidden;
 }
 
@@ -31,11 +31,6 @@ body{
 .quill{
     max-width: 800px;
     width: 65svw;
-}
-
-.envelope{
-    /* margin-top: -40svh;
-    margin-left: -25svw; */
 }
 
 .glass{
