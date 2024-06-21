@@ -50,8 +50,8 @@
 	transform: translate(60%, 30%) rotate(10deg) !important;
 }
 
-#image-key-hero{
-	transform: translate(-40%, -40%) rotate(1.5deg) !important;
+.image-key-hero{
+	width: 30vw;
 }
 
 .polaroid-travels-rotate-4deg{
@@ -290,7 +290,7 @@
 
 #image-compass-form{
 	width:45vw;
-	transform: translate(-50%, -50%) rotate(7deg);
+	/* transform: translate(-50%, -50%) rotate(7deg); */
 	margin-left: 7vw;
 }
 
@@ -379,7 +379,7 @@
 }		
 	#image-compass-form{
 	width:35vw !important;
-	transform: translate(-50%, -50%) rotate(7deg);
+	/* transform: translate(-50%, -50%) rotate(7deg); */
 	}
 		
 	.itinerary-text-card-rotate-right, .itinerary-text-card-rotate-left{

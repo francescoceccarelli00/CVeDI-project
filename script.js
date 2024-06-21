@@ -41,7 +41,15 @@ VanillaTilt.init(document.querySelector(".envelope"),{
 VanillaTilt.init(document.querySelector(".glass"),{
     max: 15,
     speed: 1500
-}); //CHIAMANDO VANILLA TILT SI DA L'EFFETTO ALL'ELEMENTO CON LA CLASSE SELEZIONATA
+}); 
+
+VanillaTilt.init(document.querySelector(".image-key-hero"),{
+    max: 15,
+    speed: 1500
+}); 
+
+
+//CHIAMANDO VANILLA TILT SI DA L'EFFETTO ALL'ELEMENTO CON LA CLASSE SELEZIONATA
 
 // Quando un bottone di apertura viene cliccato
 document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(function(button) {
@@ -58,7 +66,7 @@ document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(function(button
 });
 
 
-document.addEventListener('DOMContentLoaded', function() {
+<script>document.addEventListener('DOMContentLoaded', function() {
 var accordionButtons = document.querySelectorAll('.accordion-button');
 accordionButtons.forEach(function(button) {
     button.addEventListener('click', function(event) {
@@ -75,5 +83,5 @@ accordionButtons.forEach(function(button) {
     });
 });
 });
-
+</script>
 
