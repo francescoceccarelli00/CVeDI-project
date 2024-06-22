@@ -228,8 +228,6 @@
 	color: var(--light) !important;
 	background-color: var(--light-green);
 	border-radius: 0px !important;
-
-	
 }
 
 
@@ -290,7 +288,7 @@
 
 #image-compass-form{
 	width:45vw;
-	/* transform: translate(-50%, -50%) rotate(7deg); */
+	transform: translate(-50%, -50%) rotate(7deg);
 	margin-left: 7vw;
 }
 
