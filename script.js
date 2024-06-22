@@ -52,9 +52,9 @@ VanillaTilt.init(document.querySelector(".image-key-hero"),{
 //CHIAMANDO VANILLA TILT SI DA L'EFFETTO ALL'ELEMENTO CON LA CLASSE SELEZIONATA
 
 // Quando un bottone di apertura viene cliccato
-document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(function(button) {
+document.querySelectorAll('[class="polaroid-hover workit"]').forEach(function(button) {
     button.addEventListener('click', function() {
-        var target = document.querySelector(this.getAttribute('data-bs-target')); // Ottieni l'elemento target
+        let target = document.querySelector(this.getAttribute('data-bs-target')); // Ottieni l'elemento target
 
         // Chiudi tutti gli altri elementi di collapse tranne quello attualmente aperto
         document.querySelectorAll('.collapse').forEach(function(collapse) {
@@ -64,24 +64,4 @@ document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(function(button
         });
     });
 });
-
-
-<script>document.addEventListener('DOMContentLoaded', function() {
-var accordionButtons = document.querySelectorAll('.accordion-button');
-accordionButtons.forEach(function(button) {
-    button.addEventListener('click', function(event) {
-        var target = this.getAttribute('data-bs-target');
-        var collapseElement = document.querySelector(target);
-        var collapseInstance = bootstrap.Collapse.getOrCreateInstance(collapseElement);
-        if (collapseElement.classList.contains('show')) {
-            collapseInstance.hide();
-        } else {
-            collapseInstance.show();
-        }
-        // Prevenire la propagazione dell'evento di clic al collapse delle card
-        event.stopPropagation();
-    });
-});
-});
-</script>
 
