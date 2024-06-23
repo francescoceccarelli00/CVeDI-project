@@ -2,23 +2,72 @@
     --icon-active-light-green-accordion: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23515215'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
     --icon-no-active-light-green-accordion: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23515215'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"); --icon-active-light-green-accordion: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23515215'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
-
+ 
 body{
     overflow-x: hidden;
 }
 
+
+
+.margin-top-7rem{
+	margin-top: 7rem;
+}
+
+
+#scotch-polaroid-section2{
+	z-index: 10;
+}
+
+
+.border-hero-img {
+	border: min(max(10px, 2vw), 30px) solid #cdc0a5;}
+
+#hero-image-find-us{
+	transform: rotate(3deg);
+}
+
+#nas1-hero-find-us{
+	transform: translate(-40%, -50%) rotate(10deg) !important;
+}
+
+#nas2-hero-find-us{
+	transform: translate(30%, 55%) rotate(10deg) !important;
+}
+
+
+
+.polaroid-faq-find-us{
+	transform: translateY(-50%) rotate(-7deg);
+	margin-right: -6rem;
+}
+
+.transform-scotch-travels{
+	    transform: translate(-50%,-50%) rotate(60deg) !important; /*uguale a ludo*/
+}
+
+.transform-scotch-travels-2{
+	    transform: translate(-70%,-50%) rotate(60deg) !important;/*uguale a ludo*/
+}
+
+.rotate-3deg{
+	transform: rotate(3deg);/*uguale a ludo*/
+}
+
+.shadow-image{
+	filter: drop-shadow(9px 7px 10px rgb(0,0,0,40%));/*uguale a ludo*/
+}
+
+
+.color-light-green{
+    color: var(--light-green); /*stessa classe di ludo*/
+}
+
+
+
 /*HERO*/
 
-.Hero{
-    margin-top: 15em;
-}
-
-.herop{
-    padding-bottom: 5rem;
-}
-
-.herop h3{
-    color: var(--light-green);
+#section-hero-find-us{
+	margin-top: 15rem;
 }
 
 .nas-1{
@@ -48,13 +97,10 @@ a:hover{
 
 /*FAQ*/
 
-.FAQ{
-    padding:6rem 0 8rem 0;
-}
 
 .faq-icon-light-green{
     --bs-accordion-btn-active-icon: var(--icon-active-light-green-accordion);
-    --bs-accordion-btn-icon: var(--icon-no-active-light-green-accordion);}
+	--bs-accordion-btn-icon: var(--icon-active-light-green-accordion);}
 
 .accordion-item{
     border-bottom: 1px solid rgba(254, 232, 200, 0);
@@ -62,7 +108,7 @@ a:hover{
 }
 
 .accordion-button{
-    color: var(--dark)!important;
+    color: var(--light-green)!important;
     background-color: rgba(0,0,0,0)!important;
     border-radius: 0 !important;
 }
@@ -91,34 +137,30 @@ a:hover{
 
 /*NEWSLETTER*/
 
-.frm{
-    margin: auto;
-    top: 50%;
-    left: 38%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-}
-
-.bg_form{
-    background-image: url("/img/Trovaci/CardForm1.png");
-    min-height: 800px;
+.bg-form-find-us{
+    background-image: url("/img/Trovaci/card-form1.png");
+    min-height: 900px;
     background-repeat: no-repeat;
     background-position: center;
     object-fit: fill;
     position: relative;
     max-width: 100%;
-    filter: drop-shadow(-6px 17px 10px hsl(0 0% 0% / 62%));
+    filter: drop-shadow(-6px 17px 10px hsl(0 0% 0% / 40%));
+}
+
+#form-find-us{
+	padding-left:2rem;
 }
 
 .labels {
     display: inline-block;
     width: 100%;
-    padding: 5px;
+    padding:0.5rem 0.5rem 0.5rem 0rem ;
     vertical-align: top;
 }
 
 .labels>input[type=text]{
-    width: 75%;
+    width: 100%;
     padding: 12px 15px;
     border: var(--light-green) 2px solid;
     border-radius: 8px;
@@ -147,86 +189,84 @@ input[type=checkbox]:checked {
     border: solid 2px var(--red);
 }
 
-.bottle{
-    transform: translate(-92%, -45%);
-    height: 100%;
-}
+
 
 /*CAROUSEL*/
 
-.review{
-    margin: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-}
-
-.stars{
-    width: 12vw;
-}
-
-.review_img{
-    filter: drop-shadow(5px 10px 5px hsl(0 0% 0% / 41%));
-}
-
-.carousel-control-next-icon{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23132019'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
-    transform: translate(110%, 0);
-    width: 6vw;
-}
-
-.carousel-control-prev-icon{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23132019'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e") !important;
-    transform: translate(-110%, 0);
-    width: 6vw;
+.paddin-top-carousl-find-us{
+	padding-top: 3rem;
 }
 
 .scotch-carousel{
-    transform: translate(-52%, -40%);
+    transform: translate(-50%, -30%) rotate(60deg);
+	z-index:10;
+}
+
+.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23132019'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important; 
+	margin-right: 2rem;}
+
+.carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23132019'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e") !important;  
+	margin-left: 2rem;
 }
 
 
+
+
 /*MEDIA QUERIES*/
+
+
+
+@media (min-width: 1400px){
+	.polaroid-faq-find-us{
+		transform: translate(-50%, -50%) rotate(3deg); 
+		margin: 0rem;
+        left: 80% !important;
+		margin-top: 7rem;	
+	}
+}
 
 @media screen and (max-width:1200px){
     .nas-1{
         width: 9.5svw;
     }
-    .scotch-scaling-sm{
-        width: 21vw;
-    }
-}
-
-@media screen and (max-width:767px){
-
-    .scotch-scaling-sm{
-        width: 25svw;
-    }
-    .trovarci>h2, .FAQ>h2{
-        text-align: center;
-    }
-    .bg_form{
-        background-image: url("/img/Trovaci/CardForm2.png");
-    }
-    #txtform {
-        text-align: center;
-    }
-    .bottle{
-        display: none;
-    }
-    .stars{
-        width: 14vw;
-    }
-    .frm{
-        left: 50%;
-    }
 }
 
 @media screen and (max-width:991px){
 
-    .bottle{
-        transform: translate(-80%, -50%);
-        height: 95%;
-    }
+	.bottle-form-find-us{
+		 max-width: 100%;
+   		 height: auto;
+	}
 }
+
+@media screen and (max-width:767px){
+    
+	
+#section-hero-find-us{
+	margin-top: 13rem;
+}
+	
+	#section3-find-us-form{
+		margin-top: -3.5rem;
+	}
+	
+	.carousel-mobile{
+		height: 60vh;
+		background: url("/img/Trovaci/card-reviews-mobile.png");
+		background-repeat: no-repeat;
+		margin-top:2rem;
+		margin-bottom:-2rem;
+		text-align: center;
+		background-size: cover;
+	}
+	
+	
+	.scotch-carousel{
+		transform: translate(-50%, -40%) rotate(60deg);
+	}
+	
+	
+}
+
