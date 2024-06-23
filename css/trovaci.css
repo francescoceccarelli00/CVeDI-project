@@ -100,7 +100,7 @@ a:hover{
 }
 
 .bg_form{
-    background-image: url("img/Trovaci/CardForm1.png");
+    background-image: url("/img/Trovaci/CardForm1.png");
     min-height: 800px;
     background-repeat: no-repeat;
     background-position: center;
@@ -207,7 +207,7 @@ input[type=checkbox]:checked {
         text-align: center;
     }
     .bg_form{
-        background-image: url("img/Trovaci/CardForm2.png");
+        background-image: url("/img/Trovaci/CardForm2.png");
     }
     #txtform {
         text-align: center;

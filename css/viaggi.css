@@ -154,15 +154,15 @@
 
 
 #section4-info-travel1{
-	background-image:url("img/Viaggi/image-background-itinerary-travel1.png"); /**************************in html a questa parte ho dato la classe shadow-image, il problema è che me lo prende anche sul titolo. Stessa cosa per le due section sotto, ho provato a toglierlo con gli id e richiamando h2 ma mi toglie anche l'obra dall'immagine************************/
+	background-image: url("/img/Viaggi/image-background-itinerary-travel1.png"); /**************************in html a questa parte ho dato la classe shadow-image, il problema è che me lo prende anche sul titolo. Stessa cosa per le due section sotto, ho provato a toglierlo con gli id e richiamando h2 ma mi toglie anche l'obra dall'immagine************************/
 }
 
 #section4-info-travel2{
-	background-image: url("img/Viaggi/image-background-itinerary-travel2.png")
+	background-image: url("/img/Viaggi/image-background-itinerary-travel2.png")
 }
 
 #section4-info-travel3{
-	background-image: url("img/Viaggi/image-background-itinerary-travel3.png")
+	background-image: url("/img/Viaggi/image-background-itinerary-travel3.png")
 }
 
 
@@ -293,7 +293,7 @@
 }
 
 #section4-travels-form{
-	background-image: url("img/Viaggi/image-form-background.png"); /**************************questo pezzo di carta non ha l'ombra perchè, se la metto qui me la prende a tutto quello che c'è, non saprei come fare************************/
+	background-image: url("/img/Viaggi/image-form-background.png"); /**************************questo pezzo di carta non ha l'ombra perchè, se la metto qui me la prende a tutto quello che c'è, non saprei come fare************************/
 	background-size: cover; 
 	min-height: 65vw; 
 	background-position: center;
@@ -480,7 +480,7 @@
 	
 .sm-paper-background-choose-us{
 	
-	background-image: url("img/Viaggi/background-choose-us.png");
+	background-image: url("/img/Viaggi/background-choose-us.png");
 	height: 70vh; 
 	background-position: center center; 
 	background-size: cover;

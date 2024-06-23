@@ -83,6 +83,9 @@
         font-size: calc(3rem + 0.5vw);
         letter-spacing: 0.96px;
     }
+    #nas-1, #nas-2{
+        width: 9.5svw;
+    }
 }
 
 @media screen and (max-width: 576px) {

@@ -79,7 +79,7 @@ body{
 .paper{
     position: relative;
     height: 120vh;
-    background-image: url("img/Isola/Pezzodicarta-sfondo.png");
+    background-image: url("/img/Isola/Pezzodicarta-sfondo.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -92,7 +92,7 @@ body{
 .rotated{
     margin-top: 10% !important;
     position: relative;
-    background-image: url("img/Isola/Pezzodicarta-sfondo2.png");
+    background-image: url("/img/Isola/Pezzodicarta-sfondo2.png");
     background-size: cover;
     background-position: inherit;
     display: flex;
@@ -183,7 +183,7 @@ body{
 .mobile-background{
     width: 100%;
     height: 120vh;
-    background-image:  url("img/Isola/carta2 2.png");
+    background-image:  url("/img/Isola/carta2 2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
