@@ -27,6 +27,7 @@ body{
     transform: translate(-50%,-50%) rotate(1.92deg) !important;
     filter: drop-shadow(5px 5px 10px #000000);
 }
+
 #forest1{
     width: 15svw;
     display: flex;
@@ -70,7 +71,6 @@ body{
     min-width: 40px;
 }
 
-
 .title-paper{
     height: fit-content;
     text-align: center;
@@ -88,7 +88,6 @@ body{
     align-items: center;
     filter: drop-shadow(5px 5px 10px #000000);
 }
-
 
 .rotated{
     margin-top: 10% !important;
@@ -145,7 +144,6 @@ body{
     margin-top: 15%;
 }
 
-
 .img-r{
     display: flex;
     flex-direction: column;
@@ -181,6 +179,7 @@ body{
     flex-direction: column;
 
 }
+
 .mobile-background{
     width: 100%;
     height: 120vh;

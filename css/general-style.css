@@ -21,20 +21,35 @@
 
 .h1{
     font-family: Amalfi Coast;
-    font-size: 72px;
+    font-size: 54px;
     font-style: normal;
     font-weight: 400;
     line-height: 170%; 
     letter-spacing: 1.44px;
+    color: var(--dark) !important;
+
 }
 
 .h2{
     font-family: "Amalfi Coast";
-    font-size: 48px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 0.48px;
+    color: var(--light-green)!important;
+
+}
+
+.h3{
+    font-family: "Amalfi Coast";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.48px;
+    color: var(--dark)!important;
+
 }
 
 .fs-1{
@@ -42,7 +57,8 @@
     font-size: 22px !important; 
     font-style: normal;
     font-weight: 400;
-    line-height: 160%
+    line-height: 160%;
+
 }
 
 .fs-2{
@@ -51,6 +67,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    color: var(--dark)!important;
 }
 
 body{
@@ -159,32 +176,40 @@ input[type=text]:focus, input[type=email]:focus{
 
 @media screen and (max-width: 1200px) {
     .h1{
-        font-size: calc(3.25rem + 1.5vw) !important;
+        font-size: calc(3rem + 0.5vw);
         letter-spacing: 0.96px;
     }
 
     .h2{
-        font-size: calc();
+        font-size: calc(2rem + 0.025vw);
     }
 
+    .h3 {
+		font-size: calc(1.5rem + 0.025vw);
+	}
+
     .fs-1{
-        font-size: calc(1rem + 0.5vw) !important;
+        font-size: calc(1.25rem + 0.2vw);
     }
 }
 
 @media screen and (max-width: 576px) {
     .h1{
-        font-size: 48px !important;
+        font-size: 2.5rem;
         letter-spacing: 0.96px;
     }
 
     .h2{
-        font-size: 32px !important;
+        font-size: 2rem;
         letter-spacing: 0.32px;
     }
 
+    .h3 {
+		font-size: 1.5rem;
+	}
+
     .fs-1{
-        font-size: 18px !important;
+        font-size: 1.25rem;
     }
 
     .fs-2{

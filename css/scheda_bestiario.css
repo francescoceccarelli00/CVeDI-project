@@ -1,0 +1,53 @@
+#hero {
+	padding-top: 180px;
+}
+#div_hero{
+	margin-bottom: 100px;
+}
+
+#hero-img{
+    transform: rotate(-1deg);
+    /* border: 30px solid #CDC0A5; */
+}
+
+
+#nas-1{
+    transform: translate(-50%,-50%) rotate(105deg) !important;
+}
+
+#nas-2{
+    transform: translate(-50%,-50%) rotate(10deg) !important;
+}
+
+.nome_criptide {
+	padding-top: 120px;
+}
+
+.mirror-image {
+    transform: scaleX(-1);
+}
+
+/*-------------------------------------*/
+
+.margin-visita {
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.margin-paragrafi{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.rotate-right{
+	transform: rotate(2.43deg);
+}
+
+.rotate-left{
+	transform: rotate(-3.27deg);
+}
+
+.my-n5{
+	margin: -8% 0 -12% 0;
+}
+
