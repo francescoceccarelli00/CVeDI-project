@@ -1,5 +1,5 @@
 body{
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 
 
@@ -11,7 +11,7 @@ body{
     filter: drop-shadow(5px 5px 10px #000000);
 }
 
-.isola{
+.island{
     margin-top: 200px;
     text-align: center;
     margin-bottom: 100px;
@@ -163,10 +163,10 @@ body{
     margin-bottom: 100px;
 }
 #crt{
-    padding-top: 28%;
+    padding-top: 22%;
 }
 
-.bussola{
+.compass{
     filter: drop-shadow(5px 5px 10px #000000);
 }
 
