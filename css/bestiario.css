@@ -58,6 +58,10 @@
     letter-spacing: 1.44px;
 }
 
+a{
+    text-decoration: none
+}
+
 .light{
 	position: fixed;
 	top: 0px;
