@@ -1,6 +1,9 @@
+body{
+    overflow-x: hidden;
+}
+
 #title_home {
     margin: 188px 0 64px;
-
 }
 
 #img_home{
@@ -22,11 +25,6 @@ transform: translate(-50%,-50%) rotate(-78deg) !important;
 
 #nas-3 {
 margin-top: -4%; 
-}
-
-.bottone {
-text-decoration: none;
-color: inherit;
 }
 
 
@@ -159,14 +157,14 @@ margin-top: -5%;
 @media screen and (max-width: 767px) {
 
 #viaggi {
-    background-image: url("img/home/carta.png");
+    background-image: url("/img/Home/carta.png");
     height: 90vh;
     background-position: center center;
     background-size: cover;
 }
 
 #home_bestiario {
-    background-image: url("img/home/cartoncino.png");
+    background-image: url("/img/Home/cartoncino.png");
     height: 70vh;
     background-position: center center;
     background-size: cover;

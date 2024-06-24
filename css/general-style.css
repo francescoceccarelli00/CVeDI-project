@@ -63,7 +63,7 @@
 
 .fs-2{
     font-family: "Libre Baskerville";
-    font-size: calc(1rem + 0.025vw) !important;
+    font-size: calc(1.125rem + 0.025vw) !important;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -190,6 +190,9 @@ input[type=text]:focus, input[type=email]:focus{
 
     .fs-1{
         font-size: calc(1.25rem + 0.2vw);
+    }
+    .fs-2{
+        font-size: calc(1rem + 0.2vw);
     }
 }
 
