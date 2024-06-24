@@ -48,6 +48,11 @@ VanillaTilt.init(document.querySelector(".image-key-hero"),{
     speed: 1500
 }); 
 
+VanillaTilt.init(document.querySelector(".bottle-form-find-us"),{
+    max: 5,
+    speed: 1000
+}); 
+
 
 //CHIAMANDO VANILLA TILT SI DA L'EFFETTO ALL'ELEMENTO CON LA CLASSE SELEZIONATA
 
