@@ -52,6 +52,7 @@
 
 .image-key-hero{
 	width: 30vw;
+	max-width: 432px;
 }
 
 .polaroid-travels-rotate-4deg{
@@ -67,6 +68,10 @@
 	border: none;
 	background-color: transparent; 
 	}
+
+.polaroid-hover{
+	transition: transform 0.9s;
+}
 
 .polaroid-hover:hover {
   transform: rotate(4deg);

@@ -7,6 +7,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <link rel="stylesheet" href="/css/general-style.css">
 <link rel="stylesheet" href="/css/trovaci.css">
+<link rel="stylesheet" href="/css/home.css">
 <link rel="shortcut icon" href="/img/logo-favicon.ico" type="image/x-icon">
 
 </head>
@@ -47,8 +48,13 @@
   </div>
   
   <!--INTRO-->
-  <div id="section1-info-travel1" class="row mt-xs-5 mt-sm-5 mb-5 mx-auto">
-    <div class="col-md-5 col-lg-4 offset-lg-1 col-xl-5 offset-xl-1 position-relative rotate-3deg d-none d-sm-block d-sm-none d-md-block"> <img src="/img/nastro.png" class="nas-1 position-absolute top-0 start-50  z-3 mt-5 transform-scotch-travels" alt="immagine di un nastro"> <img src="/img/Trovaci/polaroid1-find-us.png" class="img-fluid mt-5 z-2" alt="Immagine della spiaggia dell'isola di Arcanterra" > </div>
+  <div id="section1-info-travel1" class="row mt-xs-5 mt-sm-5 mb-5 mx-auto d-flex align-items-center">
+    <div class="col-md-5 col-lg-4 offset-lg-1 col-xl-5 offset-xl-1 position-relative rotate-3deg d-none d-md-block"> 
+      <div class="container-fluid">
+        <img src="/img/nastro.png" class="nas-1 position-absolute top-0 start-50  z-3 mt-5 transform-scotch-travels" alt="immagine di un nastro"> 
+        <img src="/img/Trovaci/polaroid1-find-us.png" class="img-fluid mt-5 z-2" alt="Immagine della spiaggia dell'isola di Arcanterra" > 
+      </div>
+    </div>
     <div class="col-md-7 col-lg-6 col-xl-5">
       <h2 class="h3 mt-5 pb-3">Come trovarci</h2>
     <p class="pb-3">Su carte ignote, un mistero si nasconde,un'isola nascosta, segreta e tra le onde.Un viaggio insolito, una strana prenotazione,la mappa non rivela la tua destinazione.Chiudi gli occhi, e fai un bel respiroe su te stesso fai un giro,al tuo risveglio sarai arrivatoe il viaggio sarà appena cominciato.<br>
@@ -57,13 +63,16 @@
       <b>Parti ora all'avventura,scopri i nostri viaggi senza paura!</b></p>
     <a href="/2_viaggi.html" class="btn btn-red"> Scopri i nostri viaggi</a>
     </div>
-	  <div class="col-xs-12 position-relative d-md-none d-lg-block d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none mt-5"> <img src="/img/nastro.png" class="scotch-scaling position-absolute top-0 start-50 mx-auto z-3 mt-5 transform-scotch-travels" alt="immagine di un nastro"> <img src="/img/Trovaci/polaroid1-find-us.png" class="img-fluid mx-auto mt-5 z-2" alt="Immagine della spiaggia dell'isola di Arcanterra" > </div>
+	  <div class="col-10 offset-1 position-relative d-md-none mt-5"> 
+      <img src="/img/nastro.png" class="nas-1 scotch-scaling-sm position-absolute top-0 start-50 mx-auto z-3 mt-5 transform-scotch-travels" alt=""> 
+      <img src="/img/Trovaci/polaroid1-find-us.png" class="img-fluid mx-auto mt-5 z-2" alt="Immagine della spiaggia dell'isola di Arcanterra" > 
+    </div>
   </div>
 </div>
 
 
 <!--FAQ-->
-<div  class="container-fluid d-none d-sm-block d-sm-none d-md-block position-relative overflow-hidden margin-top-7rem">
+<div  class="container d-md-block position-relative overflow-hidden margin-top-7rem">
   <div id="section2-find-us-faq-md-l-xl" class="row margin-top-7em mx-md-auto" style="padding:2em;">
     <h2 class="text-uppercase h1 text-center"> f.a.q </h2>
     <div class=" offset-md-1 col-md-10 offset-lg-1 col-lg-7 col-xl-0 col-xl-6 offset-xxl-1 col-xxl-6 mt-5 pt-5">
@@ -84,7 +93,7 @@
   </div>
 </div>		
 	
-<div class="container d-md-none d-lg-block d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none">
+<div class="container d-md-none">
   <div id="section2-find-us-faq-xs-sm" class="row margin-top-7rem mb-5">
     <div class="mb-5">
       <h2 class="h1 color-light-green text-center text-uppercase">f.a.q</h2>
@@ -145,46 +154,109 @@
 
 
 <!--NEWSLETTER-->
-
 <div class="container-md"> 
-<div id="section3-find-us-form" class="row pb-md-5 ">
-  <div class="col-xs-12 col-md-12 offset-lg-1 col-lg-10 mx-auto bg-form-find-us ">
-    <div class="row">
-     	<div id="form-find-us" class="col-md-7 col-lg-7 position-absolute top-50 start-0 translate-middle-y">
-			<form>
-        <div class="text-start">
-          <h3 class="h3 mb-5">Iscriviti alla newsletter!</h3>
-          <p>Rimani aggiornato sulle ultime novità criptozoologiche, o scopri nuove idee di viaggio e offerte esclusive.</p>
-        </div>
-        <div>
-          <div class="labels mt-3">
-            <input type="text" placeholder="Nome e Cognome" name="anagrafica" required>
-          </div>
-          <div class="labels mt-1 mb-3">
-            <input type="text" placeholder="Indirizzo Email" name="email" required>
+  <div id="section3-find-us-form" class="row pb-md-5 ">
+    <div class="col-xs-12 col-md-12 offset-lg-1 col-lg-10 mx-auto bg-form-find-us ">
+      <div class="row">
+        <div id="form-find-us" class="col-md-7 col-lg-7 position-absolute top-50 start-0 translate-middle-y">
+        <form>
+          <div class="text-start">
+            <h3 class="h3 mb-5">Iscriviti alla newsletter!</h3>
+            <p>Rimani aggiornato sulle ultime novità criptozoologiche, o scopri nuove idee di viaggio e offerte esclusive.</p>
           </div>
           <div>
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault"> Accetto il trattamento dei dati </label>
+            <div class="labels mt-3">
+              <input type="text" placeholder="Nome e Cognome" name="anagrafica" required>
+            </div>
+            <div class="labels mt-1 mb-3">
+              <input type="text" placeholder="Indirizzo Email" name="email" required>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault"> Accetto il trattamento dei dati </label>
+            </div>
+            <button type="submit" class="btn btn-red mt-3">ISCRIVITI</button>
           </div>
-          <button type="submit" class="btn btn-red mt-3">ISCRIVITI</button>
-        </div>
-      </form>
-				</div>
-		<div class="col-md-5 col-lg-5 position-absolute top-50 end-0 translate-middle-y d-none d-sm-block d-sm-none d-md-block"> 
-			<img class="bottle-form-find-us shadow-image" src="/img/Trovaci/bottle-form-find-us.png" alt="immagine di una bottiglia con al suo interno un messaggio"> 
-		</div>
+        </form>
+          </div>
+      <div class="col-md-5 col-lg-5 position-absolute top-50 end-0 translate-middle-y d-none d-sm-block d-sm-none d-md-block"> 
+        <img class="bottle-form-find-us shadow-image" src="img/Trovaci/bottle-form-find-us.png" alt="immagine di una bottiglia con al suo interno un messaggio"> 
+      </div>
+      </div>
+      
     </div>
-    
   </div>
 </div>
+
+<!-- CAROUSEL  -->
+<h2 class="h2 text-center">Dicono di noi</h2>
+<div class="container my-5">
+  <div id="home_bestiario" class="row position-relative"> 
+    <div class="col-lg-10 col-xl-7">
+      <img src="img/Home/cartoncino.png" alt="" class="img-fluid w-100 d-none d-md-block p-0"> 
+
+    </div>
+    <div id="nas-3" class="position-absolute col-md-12 d-flex justify-content-center align-items-center"> 
+      <img class="img-fluid" src="img/Home/nastro.png" alt="nastro carta">
+    </div>
+    <!----carosello bestiario---->
+    <div class="container position-absolute">
+      <div id="carousel_bestiario" class="carousel slide container position-absolute " data-bs-ride="carousel">
+        <div class="carousel-inner row">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-8 offset-2 col-lg-6 offset-lg-3 carousel-caption d-flex flex-column align-items-center"><div class="d-block d-sm-none"><br><br><br></div>
+                <p class="fs-1 mb-4 fw-bold">Mary C. Fernandez</p>
+                <p class="fs-2 mb-4">Di recente ho partecipato a un safari ad Arcanterra con la mia famiglia ed è stata un'esperienza straordinaria, mai vissuto qualcosa di simile a questa! <br><br> <span class="d-none d-sm-block"> Abbiamo visto una varietà di criptidi, e abbiamo imparato a conoscere i loro habitat e comportamenti</span></p>
+                <img src="img/Trovaci/stars-review.png" alt="stars" class="py-lg-3 stars img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-8 offset-2 col-lg-6 offset-lg-3 carousel-caption d-flex flex-column align-items-center"><div class="d-block d-sm-none"><br><br><br></div>
+                <p class="fs-1 mb-4 fw-bold">Martin Maris</p> 
+                <p class="fs-2 mb-4">Il mio soggiorno ad Arcanterra è stato uno dei viaggi più eccitanti e misteriosi che abbia mai fatto! Qualcosa di nuovo e straordinario, bello il nuovo.<br><br><span class="d-none d-sm-block"> I safari ad Arcanterra sono un must per gli amanti del mistero e dell'avventura. Non vedo l'ora di tornarci!</span></p>
+                <img src="img/Trovaci/stars-review.png" alt="stars" class="py-lg-3 stars img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-8 offset-2 col-lg-6 offset-lg-3 carousel-caption d-flex flex-column align-items-center"><div class="d-block d-sm-none"><br><br><br></div>
+                <p class="fs-1 mb-4 fw-bold">George Smith</p>
+                <p class="fs-2 mb-4">La mia vacanza ad Arcanterra è stata un'esperienza che non dimenticherò facilmente. Esplorare un'isola piena di leggende e misteri è stato affascinante! <br><br><span class="d-none d-sm-block"> Lo consiglio a chiunque sia affascinato dal mondo dei criptidi e desideri vivere un'avventura unica.</span> </p>
+                <img src="img/Trovaci/stars-review.png" alt="stars" class="py-lg-3 stars img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frecce di navigazione --> 
+        <div class="row">
+          <div class="col-lg-10 col-xl-7">
+            <a class="carousel-control-prev" href="#carousel_bestiario" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+            </a> 
+            <a class="carousel-control-next" href="#carousel_bestiario" role="button" data-bs-slide="next" style="right: 1.25rem !important;"> 
+              <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+            </a> 
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </div>
-	
+
+
+
+
 <!--CAROSELLO-->
-	<div class="container"> 
+	<!-- <div class="container"> 
 		<div id="section4-find-us" class="row mb-5">
 			<h2 class="h2 text-center">Dicono di noi</h2>
-			<div id="background-reviews-find-us" class="col-xs-12 offset-md-1 col-md-10 mt-5"> 
+			<div id="background-reviews-find-us" class="offset-2 col-8 mt-5"> 
 			<div id="carouselExampleIndicators" class="carousel slide mx-auto" data-bs-ride="carousel">
         <div class="carousel-inner ">
           <div class="carousel-item active carousel-mobile mx-auto paddin-top-carousl-find-us p-md-5 shadow-image"> 
@@ -198,7 +270,7 @@
                 <span class="d-none d-lg-block">Abbiamo visto una varietà di criptidi, e abbiamo imparato a conoscere i loro habitat e comportamenti e abbiamo appreso la storia dell'isola e dei criptidi che la abitano.</span></p>
             </div>
           </div>
-			<div class="carousel-item active carousel-mobile paddin-top-carousl-find-us p-md-5 shadow-image"> 
+			<div class="carousel-item carousel-mobile paddin-top-carousl-find-us p-md-5 shadow-image"> 
 			  <img src="img/nastro.png" alt="nastro2" class="img-fluid position-absolute top-0 start-50 scotch-carousel "> 
 			  <img class=" w-100 d-none d-sm-block d-sm-none d-md-block " src="img/Trovaci/card-reviews.png" alt="First slide">
             	<div class="position-absolute top-50 start-50 translate-middle text-center"> 
@@ -209,7 +281,7 @@
                 <span class="d-none d-lg-block">I safari ad Arcanterra sono un must per gli amanti del mistero e dell'avventura. Non vedo l'ora di tornarci per esplorare ancora di più!</span></p>
             </div>
           </div>
-			<div class="carousel-item active carousel-mobile paddin-top-carousl-find-us p-md-5 shadow-image"> 
+			<div class="carousel-item carousel-mobile paddin-top-carousl-find-us p-md-5 shadow-image"> 
 			  <img src="img/nastro.png" alt="nastro2" class="img-fluid position-absolute top-0 start-50 scotch-carousel "> 
 			  <img class=" w-100 d-none d-sm-block d-sm-none d-md-block " src="img/Trovaci/card-reviews.png" alt="First slide">
             	<div class="position-absolute top-50 start-50 translate-middle text-center"> 
@@ -235,7 +307,7 @@
 			</div>
 			
 		</div>
-	</div>
+	</div> -->
 
 <!-- FOOTER -->
 

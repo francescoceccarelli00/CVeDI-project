@@ -219,3 +219,18 @@ body{
     text-align: center;
     margin-top: 10%;
 }
+
+.polaroid-hover{
+	transition: transform 0.9s;
+}
+
+.polaroid-hover:hover {
+  transform: rotate(4deg);
+  transition: transform 0.9s;
+}
+
+.polaroid-hover:active {
+    transform: rotate(2deg);
+    transition: transform 0.9s, box-shadow 0.3s ease-out;
+    box-shadow: 0.6rem 0.6rem 0.8rem -0.25rem rgba(0, 0, 0, 0.32);
+  }

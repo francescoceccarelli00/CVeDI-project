@@ -173,6 +173,9 @@ input[type=text]:focus, input[type=email]:focus{
     letter-spacing: 0;
 }
 
+.carousel-control-next {
+    right: 1.33rem;
+}
 
 @media screen and (max-width: 1200px) {
     .h1{
