@@ -200,7 +200,7 @@
 }
 
 /**************************SCROLL-ANIMATION************************/
- @keyframes appear {
+ /* @keyframes appear {
         from {
           opacity: 0;
           clip-path: inset(0 0 0 0);
@@ -217,7 +217,7 @@
         animation: appear linear;
         animation-timeline: view();
         animation-range: entry 0% cover 40%;
-      }
+      } */
 
 /**************************Parte descrizone viaggi xs-sm************************/
 

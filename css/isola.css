@@ -1,4 +1,4 @@
-body{
+html{
     overflow-x:hidden;
 }
 
@@ -78,7 +78,7 @@ body{
 
 .paper{
     position: relative;
-    height: 120vh;
+    height: 640px;
     background-image: url("/img/Isola/Pezzodicarta-sfondo.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,10 +87,12 @@ body{
     justify-content: center;
     align-items: center;
     filter: drop-shadow(5px 5px 10px #000000);
+    /* width: 100%; */
+    max-width: 1440px;
 }
 
 .rotated{
-    margin-top: 10% !important;
+    /* margin-top: 10% !important; */
     position: relative;
     background-image: url("/img/Isola/Pezzodicarta-sfondo2.png");
     background-size: cover;
@@ -99,6 +101,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    /* width: 100%; */
+    max-width: 1440px;
 }
 
 .img-l {
@@ -132,7 +136,7 @@ body{
 }
 
 .content {
-    padding-top: 20%;
+    padding-top: 8%;
     display: flex;
     align-items: center;
     justify-content: initial;
@@ -141,14 +145,14 @@ body{
 .text {
     text-align: initial;
     margin: 2%;
-    margin-top: 15%;
+    /* margin-top: 15%; */
 }
 
 .img-r{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     position: relative;
     filter: drop-shadow(5px 5px 10px #000000);
 }
@@ -161,9 +165,6 @@ body{
 .travel{
     margin-top: 100px;
     margin-bottom: 100px;
-}
-#crt{
-    padding-top: 22%;
 }
 
 .compass{
@@ -182,7 +183,7 @@ body{
 
 .mobile-background{
     width: 100%;
-    height: 120vh;
+    height: auto;
     background-image:  url("/img/Isola/carta2 2.png");
     background-size: cover;
     background-position: center;
