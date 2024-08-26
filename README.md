@@ -1,6 +1,6 @@
 # CryptoZoology Unlimited
 
-## Obiettivi Principali
+## Brief e Obiettivi Principali
 
 ### 1. Rappresentare l'identità aziendale
 - Incarnare l'immagine di CryptoZoology Unlimited come un laboratorio specializzato nella ricerca e cattura di creature leggendarie e mitiche.
