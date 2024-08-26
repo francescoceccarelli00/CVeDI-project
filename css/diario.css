@@ -13,6 +13,7 @@ body{
 
 .border-hero-img {
     border: min(max(10px, 2vw), 30px) solid #cdc0a5;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 #nas-1{
